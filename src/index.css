@@ -1,27 +1,58 @@
 @import "tailwindcss";
 
 @theme {
-    'blue_slate': {
-      DEFAULT: '#4f6d7a', 100: '#101618', 200: '#1f2b30', 300: '#2f4148', 400: '#3f5660', 500: '#4f6d7a', 600: '#688d9d', 700: '#8eaab5', 800: '#b4c6ce', 900: '#d9e3e6'
-    }
+  --color-blue-slate: #4f6d7a;
+  --color-blue-slate-100: #101618;
+  --color-blue-slate-200: #1f2b30;
+  --color-blue-slate-300: #2f4148;
+  --color-blue-slate-400: #3f5660;
+  --color-blue-slate-500: #4f6d7a;
+  --color-blue-slate-600: #688d9d;
+  --color-blue-slate-700: #8eaab5;
+  --color-blue-slate-800: #b4c6ce;
+  --color-blue-slate-900: #d9e3e6;
 
-    ,
-    'pale_sky': {
-      DEFAULT: '#c0d6df', 100: '#1c2f37', 200: '#375e6e', 300: '#538ea5', 400: '#88b2c3', 500: '#c0d6df', 600: '#cbdee5', 700: '#d8e6ec', 800: '#e5eef2', 900: '#f2f7f9'
-    }
+  --color-pale-sky: #c0d6df;
+  --color-pale-sky-100: #1c2f37;
+  --color-pale-sky-200: #375e6e;
+  --color-pale-sky-300: #538ea5;
+  --color-pale-sky-400: #88b2c3;
+  --color-pale-sky-500: #c0d6df;
+  --color-pale-sky-600: #cbdee5;
+  --color-pale-sky-700: #d8e6ec;
+  --color-pale-sky-800: #e5eef2;
+  --color-pale-sky-900: #f2f7f9;
 
-    ,
-    'alice_blue': {
-      DEFAULT: '#dbe9ee', 100: '#1d363e', 200: '#3b6b7d', 300: '#5f9db4', 400: '#9ec4d1', 500: '#dbe9ee', 600: '#e3eef2', 700: '#eaf2f5', 800: '#f1f7f8', 900: '#f8fbfc'
-    }
+  --color-alice-blue: #dbe9ee;
+  --color-alice-blue-100: #1d363e;
+  --color-alice-blue-200: #3b6b7d;
+  --color-alice-blue-300: #5f9db4;
+  --color-alice-blue-400: #9ec4d1;
+  --color-alice-blue-500: #dbe9ee;
+  --color-alice-blue-600: #e3eef2;
+  --color-alice-blue-700: #eaf2f5;
+  --color-alice-blue-800: #f1f7f8;
+  --color-alice-blue-900: #f8fbfc;
 
-    ,
-    'smart_blue': {
-      DEFAULT: '#4a6fa5', 100: '#0f1621', 200: '#1e2c42', 300: '#2d4263', 400: '#3b5984', 500: '#4a6fa5', 600: '#6a8bbc', 700: '#8fa8cd', 800: '#b4c5dd', 900: '#dae2ee'
-    }
+  --color-smart-blue: #4a6fa5;
+  --color-smart-blue-100: #0f1621;
+  --color-smart-blue-200: #1e2c42;
+  --color-smart-blue-300: #2d4263;
+  --color-smart-blue-400: #3b5984;
+  --color-smart-blue-500: #4a6fa5;
+  --color-smart-blue-600: #6a8bbc;
+  --color-smart-blue-700: #8fa8cd;
+  --color-smart-blue-800: #b4c5dd;
+  --color-smart-blue-900: #dae2ee;
 
-    ,
-    'baltic_blue': {
-      DEFAULT: '#166088', 100: '#04131b', 200: '#092636', 300: '#0d3a52', 400: '#124d6d', 500: '#166088', 600: '#208bc4', 700: '#49ace1', 800: '#86c8eb', 900: '#c2e3f5'
-    }
-  }
+  --color-baltic-blue: #166088;
+  --color-baltic-blue-100: #04131b;
+  --color-baltic-blue-200: #092636;
+  --color-baltic-blue-300: #0d3a52;
+  --color-baltic-blue-400: #124d6d;
+  --color-baltic-blue-500: #166088;
+  --color-baltic-blue-600: #208bc4;
+  --color-baltic-blue-700: #49ace1;
+  --color-baltic-blue-800: #86c8eb;
+  --color-baltic-blue-900: #c2e3f5;
+}
