@@ -71,23 +71,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* Nova Seção adicionada para o Commit 3: Chamada para Ação */}
-      <section className="bg-blue-slate-200 py-12 px-4 text-center">
-        <div className="max-w-4xl mx-auto space-y-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-blue-slate-900">
-            Pronto para dar o melhor cuidado ao seu pet?
-          </h2>
-          <p className="text-blue-slate-700">
-            Entre em contato ou venha nos visitar hoje mesmo. Estamos ansiosos para conhecer o seu companheiro!
-          </p>
-          <div className="pt-2">
-            <span className="inline-block bg-baltic-blue text-white font-semibold px-8 py-3 rounded-lg shadow hover:bg-baltic-blue-400 transition cursor-pointer">
-              Fale Conosco
-            </span>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
