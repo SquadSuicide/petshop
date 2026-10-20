@@ -1,4 +1,3 @@
-import { PawPrint, Phone, Mail, MapPin, Clock, ArrowUp } from 'lucide-react'
 
 const InstagramIcon = (props) => (
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
@@ -21,17 +20,17 @@ const WhatsAppIcon = (props) => (
 const socialLinks = [
   {
     name: 'Instagram',
-    href: 'https://instagram.com/petmania.petshop',
+    href: 'https://instagram.com/',
     icon: InstagramIcon,
   },
   {
     name: 'Facebook',
-    href: 'https://facebook.com/Petmania.Petshop',
+    href: 'https://facebook.com/',
     icon: FacebookIcon,
   },
   {
     name: 'WhatsApp',
-    href: 'https://wa.me/5511999999999',
+    href: 'https://wa.me/',
     icon: WhatsAppIcon,
   },
 ]
@@ -41,6 +40,7 @@ const quickLinks = [
   { label: 'Produtos', href: '/produtos' },
   { label: 'Banho & Tosa', href: '#servicos' },
   { label: 'Clínica Veterinária', href: '#veterinario' },
+  { label: 'Hotelzinho & Pet Care', href: '#hotel' },
 ]
 
 const Footer = () => {
@@ -51,21 +51,23 @@ const Footer = () => {
   }
 
   return (
-    <footer className="bg-baltic-blue-200 text-alice-blue border-t border-baltic-blue-300">
+    <footer className="bg-alice-blue text-baltic-blue border-baltic-blue-300">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Coluna 1: Marca e Sobre o Petshop */}
           <div className="space-y-4 lg:col-span-2">
             <a href="/" className="inline-flex items-center gap-2.5">
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-baltic-blue-500 text-white shadow-sm">
-                <PawPrint className="h-5 w-5" />
-              </span>
-              <span className="text-xl font-bold tracking-tight text-white">
-                Pet<span className="text-baltic-blue-700">Mania</span> Petshop
+              <img
+                src="/src/assets/logo.png"
+                alt="Logo da PetMania"
+                className="h-10 w-auto"
+              />
+              <span className="text-xl font-bold tracking-tight text-baltic-blue">
+                Pet<span className="text-baltic-blue-600">Mania</span> Petshop
               </span>
             </a>
 
-            <p className="max-w-sm text-sm leading-relaxed text-pale-sky-600">
+            <p className="max-w-sm text-sm leading-relaxed text-baltic-blue">
               Cuidando do seu melhor amigo com carinho, produtos selecionados e
               atendimento especializado para o bem-estar do seu pet.
             </p>
@@ -89,15 +91,15 @@ const Footer = () => {
 
           {/* Coluna 2: Navegação Rápida */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-slate-200">
               Navegação
             </h3>
-            <ul className="space-y-2.5 text-sm text-pale-sky-600">
+            <ul className="space-y-2.5 text-sm text-baltic-blue">
               {quickLinks.map(({ label, href }) => (
                 <li key={label}>
                   <a
                     href={href}
-                    className="transition-colors hover:text-baltic-blue-700"
+                    className="transition-colors hover:text-baltic-blue-300"
                   >
                     {label}
                   </a>
@@ -108,34 +110,30 @@ const Footer = () => {
 
           {/* Coluna 3: Contato do Petshop */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-blue-slate-200">
               Contato
             </h3>
-            <ul className="space-y-3 text-sm text-pale-sky-600">
+            <ul className="space-y-3 text-sm text-baltic-blue">
               <li className="flex items-start gap-3">
-                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-baltic-blue-700" />
                 <a
                   href="tel:+551133334444"
-                  className="transition-colors hover:text-baltic-blue-700"
+                  className="transition-colors hover:text-baltic-blue-300"
                 >
                   (11) 3333-4444
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="mt-0.5 h-4 w-4 shrink-0 text-baltic-blue-700" />
                 <a
                   href="mailto:contato@amigofiel.com.br"
-                  className="break-all transition-colors hover:text-baltic-blue-700"
+                  className="break-all transition-colors hover:text-baltic-blue-300"
                 >
                   contato@petmania.com.br
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-baltic-blue-700" />
                 <span>Av. Paulista, 1100 – São Paulo, SP</span>
               </li>
               <li className="flex items-start gap-3">
-                <Clock className="mt-0.5 h-4 w-4 shrink-0 text-baltic-blue-700" />
                 <span>Seg a Sáb, das 08h às 19h</span>
               </li>
             </ul>
@@ -143,7 +141,7 @@ const Footer = () => {
         </div>
 
         {/* Rodapé Inferior: Direitos Autorais e Voltar ao Topo */}
-        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-baltic-blue-300 pt-6 text-xs text-pale-sky-400 sm:flex-row">
+        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-baltic-blue-300 pt-6 text-xs text-pale-sky-200 sm:flex-row">
           <p className="text-center sm:text-left">
             &copy; {currentYear} Petmania Petshop. Todos os direitos reservados.
           </p>
@@ -155,7 +153,6 @@ const Footer = () => {
             className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg bg-baltic-blue-300 px-3 py-1.5 text-pale-sky-500 transition-colors hover:bg-baltic-blue-500 hover:text-white"
           >
             <span>Voltar ao topo</span>
-            <ArrowUp className="h-3.5 w-3.5" />
           </button>
         </div>
       </div>
