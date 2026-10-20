@@ -38,9 +38,6 @@ const socialLinks = [
 const quickLinks = [
   { label: 'Início', href: '/' },
   { label: 'Produtos', href: '/produtos' },
-  { label: 'Banho & Tosa', href: '#servicos' },
-  { label: 'Clínica Veterinária', href: '#veterinario' },
-  { label: 'Hotelzinho & Pet Care', href: '#hotel' },
 ]
 
 const Footer = () => {
