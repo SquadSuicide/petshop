@@ -13,13 +13,13 @@ export default function Home() {
       id: 2,
       titulo: 'Consulta Veterinária',
       descricao: 'Atendimento clínico dedicado para garantir a saúde e o bem-estar do seu melhor amigo.',
-      imagem: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=500&q=80',
+      imagem: 'https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/12/16/1013215220-cachorronoveterinario.jpg',
     },
     {
       id: 3,
       titulo: 'Hotelzinho & Pet Care',
       descricao: 'Um espaço seguro e divertido para seu pet ficar enquanto você viaja ou trabalha.',
-      imagem: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=500&q=80',
+      imagem: 'https://ipetplace.com.br/wp-content/uploads/2025/04/hospedagem.webp' 
     },
   ];
 
