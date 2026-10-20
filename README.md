@@ -1,16 +1,59 @@
-# React + Vite
+# 🐾 Pet Mania
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de um pet shop desenvolvido para fins acadêmicos, com o objetivo de praticar o uso do Git e o desenvolvimento front-end com React, Vite, Tailwind CSS e React Router DOM.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Git e GitHub** — versionamento e colaboração.
+- **React** — construção de interfaces.
+- **Vite** — ambiente de desenvolvimento.
+- **Tailwind CSS** — estilização da aplicação.
+- **React Router DOM** — navegação entre páginas.
 
-## React Compiler
+## 🚀 Como executar o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Pré-requisitos
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/SquadSuicide/petshop.git
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd petshop
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse no navegador o endereço indicado no terminal, geralmente `http://localhost:5173`.
+
+## 🎓 Objetivo acadêmico
+
+Este projeto tem finalidade exclusivamente acadêmica e foi desenvolvido para praticar conceitos de desenvolvimento web, versionamento de código com Git e colaboração utilizando GitHub.
+
+## 😊 Integrantes
+- Manuella (Tech Lead)
+- Renan (Footer, Produtos)
+- Murillo (Home)
+- Henrique (NavBar, Card)
+
+Link do Repositório: https://github.com/SquadSuicide/petshop.git
+---
